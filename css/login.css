@@ -1,0 +1,11 @@
+.registration {
+	width: 500px;
+	float: right;
+	margin: 0 auto;
+}
+
+.login {
+	width: 500px;
+	float: left;
+	margin: 0 auto;
+}

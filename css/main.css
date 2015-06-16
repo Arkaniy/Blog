@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px Trebuchet MS;
+	background-clip: 
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+p {
+	text-indent: 10px;
+	margin: 5px;
+	padding: 5px;
+}
+
+h4, h2 {
+	padding: 5px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+hr {
+	margin: 3px;
+}
+
+input, textarea {
+	width: 50%;
+	padding: 3px;
+	border-radius: 10px;
+	resize: none;
+}
+
+button {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	background: #eee;
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+	min-height: 100%;
+}
+
+.header {
+	background: #777;
+}
+
+.text-header {
+	float: left;
+	margin: 10px;
+	margin-left: 25px;
+}
+
+.controls-header {
+	float: right;
+	margin: 10px;
+	margin-right: 25px;
+
+}
+
+.button, button {
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	width: 100px;
+	margin-left: 25px;
+	padding: 10px;
+	background: #aaa;
+	color: #333;
+	border-radius: 10px;
+	font: 14px Trebuchet MS;
+}
+
+.button:hover, button:hover {
+	background: #ccc;
+}
+
+.content {
+	position: relative;
+}
+
+.left {
+	width: 380px;
+	margin: 10px;
+	float: left;
+}
+
+.main-photo {
+	height: 250px;
+	max-width: 90%;
+}
+
+.name {
+	text-align: center;
+	font-size: 16px;
+}
+
+.subs {
+	width: 100%;
+}
+
+.sub {
+	width: 30%;
+	display: inline-block;
+	margin: 5px;
+}
+
+.subs-photo {
+	width: 100px;
+	height: 120px;
+}
+
+.subs-name {
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+}
+
+.search input {
+	width: 75%;
+}
+
+.search button {
+	width: 20%;
+	margin: 0;
+}
+
+.right {
+	width: 580px;
+	float: right;
+	margin: 10px;
+}
+
+.new-welcome {
+	display: none;
+	padding: 1px;
+	width: 575px;
+	margin: 5px 0;
+}
+
+.welcome {
+	cursor: pointer;
+}
+
+.welcome:hover {
+	background: #ddd;
+}
+
+.slide-down {
+	cursor: pointer;
+	text-align: center;
+	padding: 2px;
+	margin: 2px;
+}
+
+.slide-down:hover {
+	background: #ddd;
+}
+
+.slide {
+	display: none;
+}
+
+form * {
+	width: 350px;
+	padding: 3px;
+	border: 1px solid #aaa;
+	margin-bottom: 1px;
+}
+
+.new-post textarea {
+	height: 150px;
+}
+
+form .button {
+	margin: 0;
+}
+
+.new-post [type = submit] {
+	width: 358px;
+	margin-bottom: 15px;
+}
+
+.articles {
+
+}
+
+.article {
+	margin-bottom: 15px;
+	min-height: 161px;
+}
+
+.article:hover {
+	background: #ddd;
+}
+
+.article img {
+	height: 125px;
+	float: left;
+	margin: 5px;
+}
+
+.article p {
+  	margin: 0 0 1em 0;
+  	overflow: hidden;
+	max-height: 157px;
+}
+
+.article .link {
+	text-align: right;
+}
+
+.link .button {
+	width: auto;
+	margin: 5px;
+	text-align: center;
+}
+
+.date {
+	margin: 0;
+	float: left;
+}
+
+.footer {
+	text-align: center;
+	color: #555;
+	padding: 3px;
+}
+
+.footer:hover {
+	color: #000;
+}

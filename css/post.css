@@ -1,0 +1,57 @@
+textarea {
+	margin-top: 15px;
+	width: 90%;
+	min-height: 100px;
+}
+
+.right {
+	width: 380px;
+}
+
+.left {
+	width: 580px;
+}
+
+.date-article {
+	float: right;
+}
+
+.new-comment {
+	width: 50%;
+	margin: 0;
+}
+
+.comment {
+	margin: 5px;
+	border: 1px solid #999;
+	border-radius: 12px;
+}
+
+.delete-comment {
+	margin: 0;
+	float: left;
+	cursor: pointer;
+}
+
+.from  {
+	margin: 0;
+	float: right;
+}
+
+.name {
+	margin: 0;
+	float: right;
+	text-align: right;
+}
+
+.picture {
+	float: left;
+	width: 300px;
+	margin: 15px;
+}
+
+.delete-post {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
